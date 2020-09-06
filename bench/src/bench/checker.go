@@ -22,7 +22,7 @@ import (
 	"bench/urlcache"
 )
 
-const IsubataAppHost = "isubata.example.com"
+const IsubataAppHost = "127.0.0.1"
 
 var (
 	RedirectAttemptedError = fmt.Errorf("redirect attempted")
